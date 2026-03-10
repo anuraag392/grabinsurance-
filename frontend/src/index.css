@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ------------------------------------------------------------------ */
+/* Global reset & base                                                  */
+/* ------------------------------------------------------------------ */
+*, *::before, *::after { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  @apply bg-surface text-slate-100 font-sans antialiased;
+  min-height: 100vh;
+}
+
+/* ------------------------------------------------------------------ */
+/* Custom scrollbar                                                     */
+/* ------------------------------------------------------------------ */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { @apply bg-card; }
+::-webkit-scrollbar-thumb { @apply bg-border rounded-full; }
+
+/* ------------------------------------------------------------------ */
+/* Glass card utility                                                   */
+/* ------------------------------------------------------------------ */
+.glass {
+  background: rgba(30, 41, 59, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(51, 65, 85, 0.6);
+}
+
+/* ------------------------------------------------------------------ */
+/* Gradient text                                                        */
+/* ------------------------------------------------------------------ */
+.gradient-text {
+  background: linear-gradient(135deg, #5b8af5 0%, #a78bfa 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ------------------------------------------------------------------ */
+/* Animated shimmer for loading states                                  */
+/* ------------------------------------------------------------------ */
+@keyframes shimmer {
+  0%   { background-position: -400px 0; }
+  100% { background-position: 400px 0; }
+}
+
+.shimmer {
+  background: linear-gradient(90deg, #1e293b 25%, #334155 50%, #1e293b 75%);
+  background-size: 800px 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: 6px;
+}
+
+/* ------------------------------------------------------------------ */
+/* Pulse ring (insurance offer badge)                                   */
+/* ------------------------------------------------------------------ */
+@keyframes pulse-ring {
+  0%   { transform: scale(0.9); box-shadow: 0 0 0 0 rgba(91,138,245,0.6); }
+  70%  { transform: scale(1);   box-shadow: 0 0 0 10px rgba(91,138,245,0); }
+  100% { transform: scale(0.9); box-shadow: 0 0 0 0 rgba(91,138,245,0); }
+}
+
+.pulse-ring { animation: pulse-ring 2s infinite; }
+
+/* ------------------------------------------------------------------ */
+/* Frosted modal overlay                                                */
+/* ------------------------------------------------------------------ */
+.modal-overlay {
+  background: rgba(9, 18, 32, 0.8);
+  backdrop-filter: blur(6px);
+}

@@ -1,0 +1,11 @@
+{
+    "mcpServers": {
+        "grabinsurance": {
+            "command": "python",
+            "args": [
+                "D:/grabinsurance/mcp_server/server.py"
+            ],
+            "env": {}
+        }
+    }
+}

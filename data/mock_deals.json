@@ -1,0 +1,163 @@
+[
+    {
+        "id": "deal_001",
+        "deal_title": "MakeMyTrip Goa Return Flight – Special Fare",
+        "merchant": "MakeMyTrip",
+        "category": "travel",
+        "subcategory": "flights",
+        "deal_value": 12400,
+        "currency": "INR",
+        "tags": [
+            "flight",
+            "domestic",
+            "goa",
+            "return"
+        ]
+    },
+    {
+        "id": "deal_002",
+        "deal_title": "Boat Rockerz 450 Wireless Headphones",
+        "merchant": "Boat Lifestyle",
+        "category": "electronics",
+        "subcategory": "gadgets",
+        "deal_value": 1499,
+        "currency": "INR",
+        "tags": [
+            "headphones",
+            "wireless",
+            "bluetooth",
+            "audio"
+        ]
+    },
+    {
+        "id": "deal_003",
+        "deal_title": "Zomato Weekend Dinner Coupon – 2 Person Meal",
+        "merchant": "Zomato",
+        "category": "food",
+        "subcategory": "food_delivery",
+        "deal_value": 850,
+        "currency": "INR",
+        "tags": [
+            "dinner",
+            "coupon",
+            "food delivery",
+            "restaurant"
+        ]
+    },
+    {
+        "id": "deal_004",
+        "deal_title": "Nykaa Skincare Essentials Bundle – 5 Products",
+        "merchant": "Nykaa",
+        "category": "health",
+        "subcategory": "wellness",
+        "deal_value": 2200,
+        "currency": "INR",
+        "tags": [
+            "skincare",
+            "wellness",
+            "bundle",
+            "beauty"
+        ]
+    },
+    {
+        "id": "deal_005",
+        "deal_title": "Myntra End of Reason Sale – Nike Sneakers",
+        "merchant": "Myntra",
+        "category": "fashion",
+        "subcategory": "footwear",
+        "deal_value": 4995,
+        "currency": "INR",
+        "tags": [
+            "sneakers",
+            "nike",
+            "fashion",
+            "footwear",
+            "sale"
+        ]
+    },
+    {
+        "id": "deal_006",
+        "deal_title": "Agoda Bali Resort – 4 Nights All Inclusive",
+        "merchant": "Agoda",
+        "category": "travel",
+        "subcategory": "hotels",
+        "deal_value": 38000,
+        "currency": "INR",
+        "tags": [
+            "resort",
+            "bali",
+            "international",
+            "hotel",
+            "vacation"
+        ]
+    },
+    {
+        "id": "deal_007",
+        "deal_title": "Samsung Galaxy S24 128GB – Flipkart Special",
+        "merchant": "Flipkart",
+        "category": "electronics",
+        "subcategory": "smartphones",
+        "deal_value": 54999,
+        "currency": "INR",
+        "tags": [
+            "samsung",
+            "smartphone",
+            "android",
+            "5G"
+        ]
+    },
+    {
+        "id": "deal_008",
+        "deal_title": "Swiggy Instamart Monthly Grocery Subscription",
+        "merchant": "Swiggy Instamart",
+        "category": "food",
+        "subcategory": "groceries",
+        "deal_value": 1200,
+        "currency": "INR",
+        "tags": [
+            "groceries",
+            "subscription",
+            "delivery",
+            "monthly"
+        ]
+    },
+    {
+        "id": "deal_009",
+        "deal_title": "Tata 1mg Annual Health Checkup Package",
+        "merchant": "Tata 1mg",
+        "category": "health",
+        "subcategory": "consultation",
+        "deal_value": 3499,
+        "currency": "INR",
+        "tags": [
+            "health checkup",
+            "diagnostics",
+            "annual",
+            "pharmacy"
+        ]
+    },
+    {
+        "id": "deal_010",
+        "deal_title": "Bali Trip + Myntra Vacation Outfits Bundle",
+        "merchant": "MakeMyTrip + Myntra",
+        "category": "travel",
+        "subcategory": "international",
+        "deal_value": 28500,
+        "currency": "INR",
+        "tags": [
+            "bali",
+            "trip",
+            "travel",
+            "vacation",
+            "international",
+            "fashion",
+            "outfit",
+            "myntra"
+        ],
+        "description": "Multi-category cart: 5-night Bali package (MakeMyTrip) + vacation outfit bundle (Myntra). Both products in one session — demonstrates ambiguous insurance recommendation.",
+        "multi_category": [
+            "travel",
+            "fashion"
+        ]
+    }
+]

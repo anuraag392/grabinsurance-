@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Trip Cancellation Shield",
+    "category": "travel",
+    "risk_multiplier": 1.2,
+    "min_premium": 8.99,
+    "max_coverage": 5000,
+    "description": "Reimburses non-refundable travel costs if your trip is cancelled due to illness, injury, extreme weather or airline failure. Policy activates instantly at checkout."
+  },
+  {
+    "id": 2,
+    "name": "Travel Medical Emergency Cover",
+    "category": "travel",
+    "risk_multiplier": 1.5,
+    "min_premium": 12.99,
+    "max_coverage": 100000,
+    "description": "Covers emergency medical treatment, hospitalisation and evacuation costs incurred while travelling abroad. Includes 24/7 emergency assistance hotline."
+  },
+  {
+    "id": 3,
+    "name": "Electronics Extended Warranty",
+    "category": "electronics",
+    "risk_multiplier": 1.0,
+    "min_premium": 14.99,
+    "max_coverage": 3000,
+    "description": "Extends the manufacturer warranty by up to 2 additional years on consumer electronics including smartphones, laptops, tablets and audio devices. Covers parts and labour."
+  },
+  {
+    "id": 4,
+    "name": "Screen Damage Cover",
+    "category": "electronics",
+    "risk_multiplier": 1.1,
+    "min_premium": 6.99,
+    "max_coverage": 800,
+    "description": "Covers the full cost of screen repair or replacement following accidental cracks, liquid damage or impact. Includes one claim per policy period with same-day repair partners."
+  },
+  {
+    "id": 5,
+    "name": "Personal Accident – Food Delivery",
+    "category": "food",
+    "risk_multiplier": 1.4,
+    "min_premium": 3.99,
+    "max_coverage": 50000,
+    "description": "Purpose-built for food delivery riders. Covers accidental death, permanent disability and hospitalisation cash benefits while on active delivery. Pays within 5 business days."
+  },
+  {
+    "id": 6,
+    "name": "Health OPD Cover",
+    "category": "health",
+    "risk_multiplier": 1.3,
+    "min_premium": 9.99,
+    "max_coverage": 2000,
+    "description": "Covers outpatient (OPD) medical consultations, diagnostics, prescriptions and specialist visits. Reimburses up to SGD 150 per visit with no waiting period after activation."
+  },
+  {
+    "id": 7,
+    "name": "Return Journey Protection",
+    "category": "travel",
+    "risk_multiplier": 1.1,
+    "min_premium": 5.99,
+    "max_coverage": 2000,
+    "description": "Covers the cost of rebooking your return journey if it is disrupted by flight cancellation, missed connection or natural disaster. Includes accommodation allowance of SGD 200/night."
+  },
+  {
+    "id": 8,
+    "name": "Purchase Protection",
+    "category": "fashion",
+    "risk_multiplier": 1.0,
+    "min_premium": 4.99,
+    "max_coverage": 1500,
+    "description": "Protects newly purchased fashion items against accidental damage, theft and loss within 90 days of purchase. Covers clothing, footwear, bags and accessories up to the insured value."
+  },
+  {
+    "id": 9,
+    "name": "Luxury Item Theft Guard",
+    "category": "fashion",
+    "risk_multiplier": 1.3,
+    "min_premium": 19.99,
+    "max_coverage": 10000,
+    "description": "Premium theft and loss protection for high-value fashion items including designer bags, watches and jewellery. Worldwide cover for 12 months with cashless claim settlement."
+  },
+  {
+    "id": 10,
+    "name": "Food Delivery Order Guarantee",
+    "category": "food",
+    "risk_multiplier": 0.8,
+    "min_premium": 1.99,
+    "max_coverage": 200,
+    "description": "Guarantees a refund if your food order is significantly delayed, arrives damaged or is never delivered. Instant self-service claim via the GrabInsurance app — no waiting required."
+  }
+]
