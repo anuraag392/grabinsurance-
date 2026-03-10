@@ -2,6 +2,9 @@
 
 > AI-powered micro-insurance recommendations at checkout, built with FastAPI, React, and Chart.js.
 
+## 🎥 Live Demo Video
+https://www.loom.com/share/37b98ab8495d4aa69f0e48e0fe90adba
+
 ## Project Structure
 
 ```

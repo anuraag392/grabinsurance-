@@ -13,6 +13,7 @@ from typing import Optional
 
 from fastapi import Depends, FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 from sqlalchemy.orm import Session
 from dotenv import load_dotenv
@@ -56,6 +57,9 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+dashboard_path = os.path.join(os.path.dirname(__file__), "..", "dashboard")
+app.mount("/dashboard", StaticFiles(directory=dashboard_path, html=True), name="dashboard")
 
 
 # ---------------------------------------------------------------------------

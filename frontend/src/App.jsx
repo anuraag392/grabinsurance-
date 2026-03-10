@@ -196,15 +196,26 @@ export default function App() {
                         </div>
                         <span className="text-xs px-2 py-0.5 rounded-full bg-brand-900/40 border border-brand-700/40 text-brand-400 ml-2">Demo</span>
                     </div>
-                    <a
-                        href="http://localhost:8000/docs"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="flex items-center gap-1.5 text-xs text-slate-500 hover:text-slate-300 transition-colors"
-                    >
-                        <BarChart2 className="w-3.5 h-3.5" />
-                        API Docs
-                    </a>
+                    <div className="flex items-center gap-4">
+                        <a
+                            href="http://localhost:8000/dashboard/index.html"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="flex items-center gap-1.5 text-xs text-brand-400 font-semibold hover:text-brand-300 transition-colors bg-brand-900/40 px-3 py-1.5 rounded-lg border border-brand-700/40"
+                        >
+                            <BarChart2 className="w-3.5 h-3.5" />
+                            Live Dashboard
+                        </a>
+                        <a
+                            href="http://localhost:8000/docs"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="flex items-center gap-1.5 text-xs text-slate-500 hover:text-slate-300 transition-colors"
+                        >
+                            <BarChart2 className="w-3.5 h-3.5" />
+                            API Docs
+                        </a>
+                    </div>
                 </div>
             </header>
 
