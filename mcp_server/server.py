@@ -48,7 +48,7 @@ for p in (_BACKEND, _DATA):
 from mcp.server.fastmcp import FastMCP
 from pydantic import BaseModel, Field
 
-from classifier    import classify_deal          # backend/classifier.py
+from classifier    import classify_deal         # backend/classifier.py
 from copy_generator import generate_offer_copy   # backend/copy_generator.py
 
 logger = logging.getLogger(__name__)

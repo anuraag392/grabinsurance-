@@ -133,13 +133,16 @@ Deal Object (title, category, price, tags)
 |-----------------|----------|------------------------------------|
 | DATABASE_URL    | Optional | SQLite path (default: `data/grabinsurance.db`) |
 
-## Tech Stack
+---
 
-| Layer      | Technology                              |
-|------------|----------------------------------------|
-| Backend    | Python 3.11+, FastAPI, SQLAlchemy      |
-| AI         | Built-in Mock AI Generator (no external API)   |
-| MCP        | FastMCP (python-sdk)                   |
-| Database   | SQLite                                 |
-| Frontend   | React 18, Vite, TailwindCSS v3, Framer Motion |
-| Dashboard  | Vanilla JS, Chart.js 4 (CDN)           |
+## Evaluation & Demo Guide
+
+This section is specifically tailored for reviewers evaluating the GrabInsurance project.
+
+
+### 3. API Sandboxes & Mock Architecture
+
+As per project requirements to avoid paid AI APIs, **no physical LLM or paid services are required to run this project.**
+*   **Copy Generation:** `claude_copy_generator.py` acts as a local mock LLM. It uses a sophisticated contextual interpolation engine with curated template pools (broken down by 7 intents and 3 psychological tones) to simulate exactly how an LLM would generate the copy.
+*   **Product Catalog:** Hosted locally via `data/insurance_products.json`, acting as the mock underwriter catalog.
+*   **Database:** A local SQLite database tracks the A/B sessions and funnel metrics without needing an external data warehouse.
